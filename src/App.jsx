@@ -15,7 +15,7 @@ export default function App() {
 		<>
 			<h1 className="title">Login</h1>
 			<form>
-				<Input label='University Email' type='email' />
+				<Input label='Email' type='email' />
 				<Input label='Password' type='password' />
 				<a href="#" className='forgot'>Forgot Password?</a>
 				<ReCAPTCHA sitekey={apiKey} onChange={(val) => setCap(val)} />
