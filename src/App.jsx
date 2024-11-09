@@ -23,7 +23,7 @@ export default function App() {
 				{button}
 				<p>Don't have an account? <a href="#"> Sign up</a></p>
 				<p>For help, please contact <span className='email'>
-				support@campusplatz.com</span></p>
+				support@example.com</span></p>
 			</form>
 		</>
 	)
