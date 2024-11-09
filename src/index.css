@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    font-size: 1.125rem;
+    line-height: 1.65;
+    min-height: 100dvh;
+} input {
+    font-family: inherit;
+    font-size: inherit;
+    outline: 0;
+} button {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: 0;
+} a {
+    text-decoration: none;
+    color: #3B82CC;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form {
+    max-width: min(450px, 100% - 2rem);
+    margin: 4rem auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+} form p {
+    font-size: 0.9rem;
+}
+
+.forgot {
+    margin-top: -0.75rem;
+} .email {
+    color: #3B82CC;
+} p:has(.email) {
+    margin-top: -1.5rem;
+}
